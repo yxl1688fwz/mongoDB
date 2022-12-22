@@ -12,5 +12,7 @@ public class AppDeletePool {
                 .append("title","MongoDB Insert Demo");
         mongoCollection.deleteOne(document);
         System.out.println("删除数据成功!");
+        System.out.println("删除数据成功!");
+        System.out.println("删除数据成功!");
     }
 }
